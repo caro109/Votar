@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* viewport */
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container { 
+    width: 20rem;
+    height: 25rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #dfcfcf;
+    background:transparent;
+    box-shadow: 0 0 20px #fff;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container > h1 {
+    margin-top: 0.5rem;
+    color: #283747 ;
+  }
+  
+  .container > hr {
+    width: 90%;
+    margin-bottom: 0.5rem;  
+  }
+
+  fieldset {
+    width: 90%;
+    height: 2rem;
+    position:relative;
+    padding:10px;
+    margin-top: 3rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  fieldset > label {
+    color: #283747 ;
+    margin-right: 1rem;
+  }
+  
+  fieldset > input {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background:transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 20px ;
+    padding-left: 0.5rem;
+    color: #34495E;
+  }
+  
+  fieldset > input::placeholder {
+    color: #34495E;
+  }
+  
+  button {
+    margin-top: 3rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #8d0456;
+    cursor: pointer;
+    background-color: #0f0202;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  #p-result {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
